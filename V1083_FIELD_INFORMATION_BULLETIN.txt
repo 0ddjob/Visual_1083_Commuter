@@ -1,0 +1,255 @@
+               MBF COMPANY CONFIDENTIAL FIELD INFORMATION BULLETIN
+
+SERVICE GROUP(S): MICRO                MFG: VISUAL TECHNOLOGY
+
+ NACS  TYPE(S): 6779,9779              MFG. MODEL(S): COMMUTER,V1080
+
+CATEGORY: CPU                          DESC: COMMUTER COMPUTER
+
+                   *** TABLE OF CONTENTS AS OF 12/19/90 ***
+FIB 00001.General Information.........................................06/29/87
+FIB 00002.COMMUNICATIONS TEST WRAPAROUND PLUG.........................06/30/87
+FIB 00003.MEMORY.CONFIGURATION AND SWITCH SETTINGS....................06/30/87
+FIB 00004.SYSTEM BOARD CONFIGURATION/SWITCH SETTINGS..................06/30/87
+FIB 00005.FLOPPY DISK REPLACEMENT.....................................11/05/87
+
+
+CPU-VISUAL TECHNOLOGY-COMMUTER,V1080----------------Table Of Contents Pg01 of 01
+FIB 00001                                                             06/29/87
+
+                          *** General Information ***                        
+
+               ***  NACS  MACHINE TYPES AND FEATURE NUMBERS ***
+
+                                   6779,9779
+
+         11/21/84                       Catagory A - GENERAL
+
+
+A1  MAINTENANCE APPROACH
+
+    This  product  will be maintained by both C.R.C.  and  On-site
+maintenance.  All repairs on-site and in the C.R.C.'s will be sub-
+assembly  replacement  only.   Repairable sub-assemblies  will  be
+repaired to the component level at Production in K.O.P.  and Class
+1 C.R.C.'s which have been approved for multi-layered PCB  repair.
+Note:  Class  1  C.R.C.'s may find it more cost effective to  swap
+sub-assemblies rather than repair to the component level.
+
+
+A2   NACS  MACHINE TYPES, FEATURE NUMBERS
+
+
+Description         Mfg.P/N        O/S_M/T   CRC_M/T   FEATURE#
+COMMUTER 1083                      6779      9779
+
+
+A3  FIELD REPACEABLE PARTS LISTING
+
+
+Description                   Mfg._P/N            Sorbus_P/N
+MAIN LOGIC BOARD w/ 128k      PA033-A01           VT000201
+     & CONNECTOR BRACKET      PN007-005              "
+DISKETTE DRIVE (SD-521)       DF002-A0X           VT000202
+DISK DRIVE CABLE                 ---              VT000216                   
+DISK DRIVE MOUNT              BR004-00X           VT000211
+KEYBOARD                      KB011-011           VT000203
+KEYBOARD CABLE                CL016-A01           VT000218                   
+DISPLAY, LCD                  DM001-A01           VT000204
+     w/ CABLE                 CL019-A0X              "
+     and BEZEL                CU002-001-003          "
+FLIP COVER                    DZ002-A0X           VT000208
+SPEAKER w/ CABLE              SB001-A01           VT000221
+POWER SUPPLY                  PA022-A01           VT000205
+AC PANEL ASSY                 PN007-A06           VT000224
+     w/ LINE FILTER              ---                 "
+     and SWITCH               (NS000011)             "
+FAN and AC HARNESS ASSY       FN001-A01           VT000222
+DC HARNESS ASSY               WA006-A03           VT000215
+EARTHING (GROUND) HARNESS     WA011-A01           VT000220
+HANDLE ASSY                   GZ001-006           VT000210
+TOP COVER                        ---              VT000207                   
+     w/ DISK DRIVE BEZEL      CU002-001-003       VT000212
+BASE                          BU002-A0X           VT000206
+REAR DOOR                     PN007-006           VT000210
+LATCHES L&R (FLIP COVER)         ---              VT000227
+LATCHES L&R (REAR DOOR)          ---              VT000228
+IC, RAM, 64k x 1              4164                YY012064
+ ",  " , 256k x 1             41256               YY014874
+
+CPU-VISUAL TECHNOLOGY-COMMUTER,V1080----------------FIB001 Pg001
+
+
+AVAILABLE DOCUMENTATION
+
+Description                   Mfg._P/N            Sorbus_P/N
+OPERATOR'S GUIDE/DOS             ---             |Call Tech
+MAINTENANCE MANUAL               ---             |Library in
+SCHEMATIC SET                    ---             |Frazer.
+
+
+A5  AVAILABLE TRAINING
+
+The  MICRO  FAMILIARIZATION and SOFTWARE FAMILIARIZATION  CLASSES
+are available at the Education Center in Frazer.  As this unit is
+100%  compatible  with  the  IBM  PC,  microcomputer  theory  and
+operational  information  given  in  these  classes  is  directly
+related  to the COMMUTER.   A training video tape should be  made
+available from VISUAL soon.
+
+
+A6  SPECIAL TOOLS
+
+Description                   Mfg._P/N            Sorbus_P/N
+ NACS  IBM Diag. Diskette                         PC000777
+Comm. port wrap-plug     Local manufacture    See Hdwr Tech Talks
+
+ORIGINATOR: J. HILL
+
+
+CPU-VISUAL TECHNOLOGY-COMMUTER,V1080----------------FIB001 Pg002
+
+
+FIB 00002                                                             06/30/87
+
+                  *** COMMUNICATIONS TEST WRAPAROUND PLUG ***
+
+
+               COMMUTER COMM TEST WRAP AROUND PLUG
+
+     There  is a special wrap-around plug required to perform the
+ROM-based  communication  port test  with  external  wrap-around.
+This  wrap-around  plug is manufactured  locally.   The  plug,  a
+female DB-25 connector (P/N 0R999374) and backshell (P/N YY12715)            
+are available through the stock system.   Wire the plug as  shown
+below...
+
+                        20  +----------|
+                         4  +--------| |
+                         2  +------| | |
+                         3  +------| | |
+                        22  +--------| |
+                         5  +--------| |
+                         6  +----------|
+                         8  +----------|
+
+
+            EXTERNAL WRAP-AROUND PLUG WIRING DIAGRAM
+
+
+Originator: Bob Appel  12/04/84
+
+ORIGINATOR: R. APPEL
+
+
+CPU-VISUAL TECHNOLOGY-COMMUTER,V1080----------------FIB002 Pg001
+
+
+FIB 00003                                                             06/30/87
+
+                *** MEMORY CONFIGURATION AND SWITCH SETTINGS ***
+
+
+           SYSTEM BOARD CONFIGURATION/SWITCH SETTINGS
+
+     There  is one 8-position switch pack on the system PCB.   It
+controls the configuration of the number of floppy  drives,  type
+of  display,  amount  of  memory  and installation  of  math  co-
+processor.
+
+     Position  Function__________________________________________
+     1         ALWAYS OFF
+
+     2         Math Co-processor: OFF- INSTALLED
+                                  ON - NOT installed
+
+     3,4       Memory:   Amount__  3__  4__
+                         64k       ON   ON
+                         128k      OFF  ON
+                         256k      ON   OFF
+                         512k      OFF  OFF
+
+     5,6       Display:  Type__________  5__  6__
+                         16x80 LCD       ON   ON
+                         25x80 LCD       ON   OFF
+                         25x40 COLOR     OFF  ON
+                         25x80 COLOR     ON   OFF
+                         IBM MONOCHROME  OFF  OFF
+
+     7,8       Drives:   Number_of       7__  8__
+                         1               ON   ON
+                         2               OFF  ON
+
+     **** NOTE ****
+     Switch  positions 5 and 6 (display type) can be  temporarily
+overridden by entering the key sequences below.  The display type
+will  revert back to the default (switch setting) whenever  there
+is a cold or warm boot.
+
+          Display_______  Sequence_____________________
+          16x80 LCD       Hold CTRL and ALT and press L
+          25x80 LCD       Hold CTRL and ALT and press 8
+          25x40 COLOR     Hold CTRL and ALT and press 4
+          25x80 COLOR     Hold CTRL and ALT and press 8
+          IBM MONOCHROME  Hold CTRL and ALT and press M
+
+
+Originator: Bob Appel  12/04/84
+
+ORIGINATOR: J. HILL
+
+
+CPU-VISUAL TECHNOLOGY-COMMUTER,V1080----------------FIB003 Pg001
+
+
+FIB 00004                                                             06/30/87
+
+               *** SYSTEM BOARD CONFIGURATION/SWITCH SETTINGS ***
+
+
+                 COMMUTER MEMORY CONFIGURATIONS
+    Memory                                         Switchpack
+    Size__  D-RAM IC's_____  PAL_Part_No._(U-115)  S3__  S4__
+    128k    64k (two rows)   1B001-002-00A         OFF   ON
+    256k    256k (one row)   1B001-003-00A         ON    OFF
+    512k    256k (two rows)  1B001-004-00A         OFF   OFF
+
+     There are only two rows of RAM sockets in this machine.   If
+only one row is used,  as in the 256k configuration,  use the row
+away  from  the front (U-133 thru U-141).   Be sure the  PAL  and
+switch settings are correct for your particular configuration.
+
+
+Originator: Bob Appel  12/03/84
+
+
+ORIGINATOR: J. HILL
+
+
+CPU-VISUAL TECHNOLOGY-COMMUTER,V1080----------------FIB004 Pg001
+
+
+FIB 00005                                                             11/05/87
+
+                        *** FLOPPY DISK REPLACEMENT ***
+
+SYMPTOM:  REPLACEMENT FLOPPY DRIVE DOESN'T MATCH OLD DRIVE.
+
+FIX:  The old style drive with the lever (Epson Model 521L) is becoming
+difficult to supply since the manufacturer has discontinued this model. Our
+only source is from in-house repair and these will eventually go away. On
+occasion parts will have to ship the push button style (Epson Model 521) as
+a substitute. In order to provide the customer's machine with a matching pair
+of drives, replace both drives with the push button style.
+The respective part numbers are:
+        NS090122        Epson Model 521L lever type - old style
+        VT000202        Epson Model 521  Push button - new style
+
+Make sure that the extra drive is returned as GOOD/return to stock.
+
+
+ORIGINATOR: JOHN HILL
+
+
+CPU-VISUAL TECHNOLOGY-COMMUTER,V1080----------------FIB005 Pg001
+
