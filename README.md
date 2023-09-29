@@ -14,3 +14,9 @@ It contains three RIFA filtering capacitors that should be replaced, especially 
 ## Cooling Fan
 There is a cooling fan situated next to the power supply.  As this is an AC fan ... with no markings (in my case, at least) ... you will likely need to replace it if you are switching voltages - assume it's a 115VAC-rated fan.<br>
 Its dimensions are 80mm square and 42mm deep.
+
+## Videos
+[![Part 1](https://img.youtube.com/vi/goFxArGyGIE/hqdefault.jpg)](https://www.youtube.com/embed/goFxArGyGIE)
+
+[<img src="https://img.youtube.com/vi/goFxArGyGIE/hqdefault.jpg" width="600" height="300"
+/>](https://www.youtube.com/embed/goFxArGyGIE)
