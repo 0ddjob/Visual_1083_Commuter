@@ -6,8 +6,8 @@ Information about the Visual 1083 luggable.
 ## Power Supply
 The internal power supply is switchable, by moving a wire, between 115VAC and 230VAC.  The fuse should also be changed: 1A for 115VAC, 0.5A for 230VAC.<br>
 It contains three RIFA filtering capacitors that should be replaced, especially if original.<br>
-- 0.1µF X-class, 23mm (C2)
-- 0.01µF X-class, 17mm (C1 & C22)
+- 0.1µF X-class, 250V, 15 or 20mm pin spacing (C2)
+- 0.01µF X-class, 250V, 10 or 15mm pin spacing (C1 & C22)
 
 ![V1083 PSU](/Pictures/V1083_PSU.jpg)
 
