@@ -16,7 +16,4 @@ There is a cooling fan situated next to the power supply.  As this is an AC fan 
 Its dimensions are 80mm square and 42mm deep.
 
 ## Videos
-[![Part 1](https://img.youtube.com/vi/goFxArGyGIE/hqdefault.jpg)](https://www.youtube.com/embed/goFxArGyGIE)
-
-[<img src="https://img.youtube.com/vi/goFxArGyGIE/hqdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/goFxArGyGIE)
+![Part 1](https://youtu.be/goFxArGyGIE)
