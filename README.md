@@ -16,7 +16,10 @@ There is a cooling fan situated next to the power supply.  As this is an AC fan 
 Its dimensions are 80mm square and 42mm deep.
 
 ## ISA Expansion
-The Commuter has a DC62 port that is compatible with the IBM Model 5161 Expansion chassis.
+The Commuter has a DC62 port that is compatible with the IBM Model 5161 Expansion chassis.  To enable the use of expansion cards (such as an XT-IDE interface for CF storage), an expansion chassis will need to be built.<br>
+Two possible options are:
+- Quick 'n' dirty: [make](https://github.com/schlae/ibm-extender) or buy a 5161 Receiver card and customise an existing ISA backplane (such as one for the [Amstrad PPC](http://www.enide.net/webcms/index.php?page=ppc512-640-isa-expansion)) by adding power & clock
+- More work: create a custom ISA backplane with surface mount 5161 Receiver functionality built-in
 
 ## Videos
 - Part 1: https://youtu.be/goFxArGyGIE
